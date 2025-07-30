@@ -68,7 +68,7 @@ const Index = () => {
             align: 'start', 
             loop: true,
             slidesToScroll: 1,
-            duration: 20
+            duration: 60
           }} 
           className="w-full"
         >
