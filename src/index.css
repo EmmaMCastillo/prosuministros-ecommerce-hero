@@ -4,6 +4,40 @@
 
 /* Definition of the design system. All colors, gradients, fonts, etc should be defined here. */
 
+/* Modius Font - Implementation with Google Fonts fallback */
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+@font-face {
+  font-family: 'Modius';
+  src: url('/fonts/Modius-Regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Font stack for Modius with similar fallback */
+.font-modius {
+  font-family: 'Modius', 'Anton', 'Impact', 'Arial Black', 'Helvetica Bold', sans-serif;
+  font-weight: normal;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+}
+
+/* Modius font utilities */
+.font-modius-bold {
+  font-family: 'Modius', 'Anton', 'Impact', 'Arial Black', 'Helvetica Bold', sans-serif;
+  font-weight: normal;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+}
+
+.font-modius-normal {
+  font-family: 'Modius', 'Anton', 'Impact', 'Arial Black', 'Helvetica Bold', sans-serif;
+  font-weight: normal;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+}
+
 @layer base {
   :root {
     --background: 0 0% 100%;

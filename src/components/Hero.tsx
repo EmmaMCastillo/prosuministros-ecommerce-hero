@@ -4,7 +4,7 @@ import { ArrowRight, Shield, Zap, Users } from 'lucide-react'
 const Hero = ({ onClick }: { onClick?: () => void }) => {
   return (
     <section
-      className="relative w-full font-[Verdana] text-[90%] cursor-pointer"
+      className="relative w-full font-modius text-[90%] cursor-pointer"
       style={{ aspectRatio: '8000/3333' }}
       onClick={onClick}
     >
@@ -17,12 +17,12 @@ const Hero = ({ onClick }: { onClick?: () => void }) => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 sm:gap-6 lg:gap-12 items-center h-full">
             {/* Text Content */}
             <div className="text-white flex flex-col justify-center">
-              <h1 className="text-base sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl 2xl:text-5xl font-bold leading-tight mb-2 sm:mb-3 lg:mb-6">
+              <h1 className="text-base sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl 2xl:text-5xl font-['Modius'] leading-tight mb-2 sm:mb-3 lg:mb-6 tracking-tight">
                 Soluciones
-                <span className="block text-white/90">Tecnológicas</span>
+                <span className="block text-white/90">Tecnologicas</span>
                 <span className="block">Empresariales</span>
               </h1>
-              <p className="text-xs sm:text-xs md:text-sm lg:text-base xl:text-lg text-white/90 mb-3 sm:mb-4 lg:mb-8 leading-relaxed hidden sm:block">
+              <p className="text-xs sm:text-xs md:text-sm lg:text-base xl:text-lg text-white/90 mb-3 sm:mb-4 lg:mb-8 leading-relaxed hidden sm:block font-['Modius'] opacity-80">
                 Proveemos tecnología de vanguardia, software especializado y hardware 
                 de alto rendimiento para impulsar el crecimiento de tu empresa.
               </p>
@@ -35,8 +35,8 @@ const Hero = ({ onClick }: { onClick?: () => void }) => {
                   <Shield className="w-3 h-3 sm:w-4 sm:h-4 lg:w-5 lg:h-5 xl:w-6 xl:h-6" />
                 </div>
                 <div className="min-w-0">
-                  <h3 className="text-xs sm:text-xs lg:text-sm xl:text-base font-semibold">Seguridad Garantizada</h3>
-                  <p className="text-xs lg:text-xs xl:text-sm text-white/80 hidden md:block">Protección y confiabilidad en todos nuestros productos</p>
+                  <h3 className="text-xs sm:text-xs lg:text-sm xl:text-base font-['Modius'] tracking-tight">Seguridad Garantizada</h3>
+                  <p className="text-xs lg:text-xs xl:text-sm text-white/80 hidden md:block font-['Modius'] opacity-70">Protección y confiabilidad en todos nuestros productos</p>
                 </div>
               </div>
               
@@ -45,8 +45,8 @@ const Hero = ({ onClick }: { onClick?: () => void }) => {
                   <Zap className="w-3 h-3 sm:w-4 sm:h-4 lg:w-5 lg:h-5 xl:w-6 xl:h-6" />
                 </div>
                 <div className="min-w-0">
-                  <h3 className="text-xs sm:text-xs lg:text-sm xl:text-base font-semibold">Alto Rendimiento</h3>
-                  <p className="text-xs lg:text-xs xl:text-sm text-white/80 hidden md:block">Tecnología de última generación para máxima eficiencia</p>
+                  <h3 className="text-xs sm:text-xs lg:text-sm xl:text-base font-['Modius'] tracking-tight">Alto Rendimiento</h3>
+                  <p className="text-xs lg:text-xs xl:text-sm text-white/80 hidden md:block font-['Modius'] opacity-70">Tecnología de última generación para máxima eficiencia</p>
                 </div>
               </div>
               
@@ -55,8 +55,8 @@ const Hero = ({ onClick }: { onClick?: () => void }) => {
                   <Users className="w-3 h-3 sm:w-4 sm:h-4 lg:w-5 lg:h-5 xl:w-6 xl:h-6" />
                 </div>
                 <div className="min-w-0">
-                  <h3 className="text-xs sm:text-xs lg:text-sm xl:text-base font-semibold">Soporte Especializado</h3>
-                  <p className="text-xs lg:text-xs xl:text-sm text-white/80 hidden md:block">Acompañamiento técnico personalizado 24/7</p>
+                  <h3 className="text-xs sm:text-xs lg:text-sm xl:text-base font-['Modius'] tracking-tight">Soporte Especializado</h3>
+                  <p className="text-xs lg:text-xs xl:text-sm text-white/80 hidden md:block font-['Modius'] opacity-70">Acompañamiento técnico personalizado 24/7</p>
                 </div>
               </div>
             </div>
